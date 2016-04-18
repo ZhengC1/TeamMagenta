@@ -1,0 +1,15 @@
+import numpy as np
+import time
+
+data = np.load('train.npy')
+t0 = time.time()
+
+num_ratings = len(data)
+
+num_movies = np.max(data[:, 1], axis=0)
+
+print('%f ratings per movie' % (num_ratings / num_movies))
+t1 = time.time()
+print('%f seconds' % (t1 - t0))
+
+

@@ -1,0 +1,16 @@
+import numpy as np
+import time
+
+data = np.load('train.npy')
+t0 = time.time()
+
+m = np.mean(data[:, 2])
+
+#m = 0
+#for row in data:
+#    m += row[2]
+#    #m /= len(data)
+print(m)
+
+t1 = time.time()
+print('%f seconds' % (t1 - t0))

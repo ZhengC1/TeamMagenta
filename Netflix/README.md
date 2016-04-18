@@ -1,0 +1,1 @@
+# TeamMagentauser data structure- contains, the movie id and rating - use this 	compare_usermethod(1userid)		{			goes through, finds strongest correlations between users			builds a list of similiar ones. 		}organize datado the same things with movie data. 
