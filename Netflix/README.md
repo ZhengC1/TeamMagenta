@@ -1,1 +1,11 @@
-# TeamMagentauser data structure- contains, the movie id and rating - use this 	compare_usermethod(1userid)		{			goes through, finds strongest correlations between users			builds a list of similiar ones. 		}organize datado the same things with movie data. 
+average movie rating matrix - shows the mean for each movie
+	do this for each user
+		create this matrix.
+
+average mean user rating for each movie and user 
+some prediction method 
+and then you compare 
+
+train.py
+[userid, movie id , rating, date]
+

@@ -16,9 +16,9 @@ class Netflix(object):
     def __init__(self):
 
         #npyfile = input("what file would you like to read?: ")
-        train_file = "../train.npy"
-        test_file = "../test.npy"
-        valid_file = "../validation.npy"
+        train_file = "train.npy"
+        test_file = "test.npy"
+        valid_file = "validation.npy"
         self.train_data = np.load(train_file)
         self.test_data = np.load(test_file)
         self.train_data = np.load(valid_file)
